@@ -1,0 +1,216 @@
+body {
+    background-image: url(/public/assets/imagem/fundo\ 4.jpg);/*fundo numeros*/
+    background-size: cover
+}
+
+
+h2 {  
+    font-size: 80px;
+    color: #c10404;
+    margin-left: 85% ;/* margem de esquerda*/
+    margin-top: 1%;  /* margem de baixo */
+    text-shadow: 2px 2px 5px #fade08; /* Deslocamento horizontal, deslocamento vertical, desfoque, cor da sombra */
+   -webkit-text-stroke: 1.5px #000000;
+}
+
+
+h2 {
+   
+    font-family: cursive 500px;
+    font-size: 3vw; /* 3% da largura da tela */
+    line-height: 1.5;
+    
+    
+}
+
+.porcent {
+    margin-top: 100px;
+    width: 95%; /*largura  da borda*/
+    height: 500px; /* um fundo quadradotanto na largura quanto na altura*/
+    background-color: rgb(100, 154, 197);
+   
+}
+
+h3 {
+    font-size: 60px;/*Prof Dri*/
+    font-family: cursive;
+    margin-top: 30px;  /* margem de baixo */
+    margin-bottom: 100px; /* margem de cima*/
+    margin-left: 15px ;/* margem de esquerda*/
+    margin-right: 1px;/* margem de direita*/
+    
+
+}
+h4{
+    font-size: 40px; /*aprendendo com carinho*/
+    font-family: cursive ;
+    margin-top: 2px;  /* margem de baixo */
+    margin-bottom: 5px; /* margem de cima*/
+   
+   
+}
+p {
+    font-size: 35px;/*Oi eu sou Dri*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+}
+
+h5 {
+    font-size: 80px;/*vamos começar*qual é a sua duvida*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #040404;
+    margin-left: 1% ;/* margem de esquerda*/
+    margin-top: 10%;  /* margem de baixo */
+    text-shadow: 10px 15px 5px #f39292; /* Deslocamento horizontal, deslocamento vertical, desfoque, cor da sombra */
+
+
+
+   
+}
+
+
+div {
+   
+    margin-top: 3000x;  /* margem de baixo */
+    margin-bottom: 20px; /* margem de cima*/
+    margin-left: 15px ;/* margem de esquerda*/
+    margin-right: 1px;/* margem de direita*/
+    padding: 10px
+
+       
+
+}
+
+
+
+
+/* Estilo para a tabela */
+
+
+table {
+    font-size:30px; /*dados da tabela*/
+    font-family: cursive;
+    width: 100%;
+    height: 400px;
+    border-collapse: collapse;
+    background-color: #d59393; /*cor do fundo da tabela*/
+    color: #0e0d0d; /* cor da letra da tabela*/
+    margin-top: 30px; /* Adiciona espaço superior entre o conteúdo acima e a tabela */
+}
+
+/* Estilo para as células do cabeçalho */
+th {
+    background-color:#d59393; /*cor do fundo da tabela*/
+    padding: 19px;
+    text-align:center;
+    
+}
+
+/* Estilo para as células do corpo da tabela fundo preto */
+td {
+    border: 1px solid #0a0a0a;
+    padding: 10px;
+    text-align:center;
+   
+    
+}
+
+/* Estilo para o rodapé da tabela */
+tfoot {
+    background-color:#d59393;
+    font-weight: bold;
+    text-align:center;
+}
+
+/* Estilo para a div que envolve a tabela */
+.tabela-container {
+    margin-top: 150px; /* Ajuste conforme necessário para o espaçamento desejado */
+}
+
+/* Estilo para a nova div que envolve a tabela */
+.table-wrapper {
+    overflow-x: auto; /* Adiciona rolagem horizontal caso a tabela seja muito larga para a tela */
+}
+
+input, button, select, textarea {
+    font-size: 3em; /*DETERMINA O TAMANHO TOTAL DO FORMULARIO*/
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;;
+
+}
+
+dialog-box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px; /* Tamanho da fonte para rótulos */
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 50px; /* ajusta a margem entre as caixas*/
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+button {
+    background-color: #05257c;
+    color: #fff;
+    padding: 25px 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    animation: swing 1s ease-in-out infinite;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+h7 {
+    font-size: 80px;/*vamos começar*qual é a sua duvida*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #040404;
+    margin-left: 1% ;/* margem de esquerda*/
+    margin-top: 50%;  /* margem de baixo */
+}
+   
+    .imagem-inferior-esquerda{
+        margin-left: 85% ;/* margem de esquerda*/
+        margin-top: -35%;  /* margem de baixo */
+    }
